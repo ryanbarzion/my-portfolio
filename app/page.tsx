@@ -63,7 +63,7 @@ export default function Home() {
           {/* Embedded Demo Placeholder */}
           <div className="mt-6">
             <iframe
-              src="https://catalyst-researcher-demo-url.com" // Replace with your deployed dashboard/demo URL
+              src="https://huggingface.co/spaces/ryanbarzion/catalyst-dashboard" // Replace with your deployed dashboard/demo URL
               title="Catalyst Research Demo"
               className="w-full h-96 rounded-lg border border-slate-600"
               style={{ background: '#1e293b' }}
