@@ -39,13 +39,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-6 py-15 text-center">
-        <Image
-          src="/myphoto.jpg"
-          alt="My Photo"
-          width={64}
-          height={64}
-          className="mx-auto rounded-full mb-6"
-        />
         <h1 className="text-5xl font-bold mb-4">Featured Projects</h1>
         <p className="text-xl text-slate-300 mb-8"></p>
       </section>
