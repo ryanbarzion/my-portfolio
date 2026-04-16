@@ -33,14 +33,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-4xl mx-auto px-6 py-20 text-center">
         <h1 className="text-5xl font-bold mb-4">Featured Projects</h1>
-        <p className="text-xl text-slate-300 mb-8">
-          Building intelligent systems for catalyst discovery and investment research
+        <p className="text-xl text-slate-300 mb-8"> 
         </p>
         {/* Removed 'View My Work' button */}
       </section>
 
       {/* Projects Section */}
       <section id="projects" className="max-w-4xl mx-auto px-6 py-20">
+        <h2 className="text-3xl font-bold mb-12">Project 1:</h2>
 
         {/* Project 1: Catalyst Research */}
         <div className="bg-slate-700/50 border border-slate-600 rounded-lg p-8 mb-8 hover:border-blue-500 transition">
