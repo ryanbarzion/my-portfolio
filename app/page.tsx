@@ -6,7 +6,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="border-b border-slate-700 sticky top-0 bg-slate-900/95 backdrop-blur">
         <div className="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Ryan Bar-Zion --Projects</h1>
+          <h1 className="text-2xl font-bold">Ryan Bar-Zion -- Projects</h1>
           <div className="space-x-6 flex items-center">
             <a
               href="https://www.linkedin.com/in/ryanbarzion"
@@ -31,7 +31,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="max-w-4xl mx-auto px-6 py-20 text-center">
+      <section className="max-w-4xl mx-auto px-6 py-10 text-center">
         <h1 className="text-5xl font-bold mb-4">Featured Projects</h1>
         <p className="text-xl text-slate-300 mb-8"> 
         </p>
@@ -39,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="max-w-4xl mx-auto px-6 py-20">
+      <section id="projects" className="max-w-4xl mx-auto px-6 py-10">
         <h2 className="text-3xl font-bold mb-12">Project 1:</h2>
 
         {/* Project 1: Catalyst Research */}
