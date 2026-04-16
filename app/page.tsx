@@ -99,7 +99,7 @@ export default function Home() {
               GitHub
             </a>
             {" "} • {" "}
-            <a href="ryan@barzion.net" className="text-blue-400 hover:text-blue-300">
+              <a href="mailto:ryan@barzion.net" className="text-blue-400 hover:text-blue-300">
               Email
             </a>
           </p>
@@ -113,3 +113,4 @@ export default function Home() {
     </div>
   );
 }
+
