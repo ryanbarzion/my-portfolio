@@ -77,19 +77,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="max-w-4xl mx-auto px-6 py-20 border-t border-slate-700">
-        <h2 className="text-3xl font-bold mb-6">About</h2>
-        <div className="space-y-4 text-slate-300">
-          <p>
-            I build AI-powered research and analysis tools. Currently focused on catalyst discovery, thesis development, and investment research systems.
-          </p>
-          <p>
-            Skilled in: Python, FastAPI, React, LLMs, Database Design, Full-Stack Development
-          </p>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="max-w-4xl mx-auto px-6 py-20 border-t border-slate-700 text-center">
         <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
