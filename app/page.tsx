@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Ryan Bar-Zion Portfolio",
+  description: "Projects by Ryan Bar-Zion",
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 to-slate-800 text-white">
@@ -15,6 +20,7 @@ export default function Home() {
               aria-label="LinkedIn"
               className="hover:text-blue-400 flex items-center"
             >
+              {/* LinkedIn SVG */}
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.869 0-2.156 1.459-2.156 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.563 2.844-1.563 3.042 0 3.604 2.003 3.604 4.604v5.592z"/></svg>
               <span className="ml-1 hidden sm:inline">ryanbarzion</span>
             </a>
@@ -23,6 +29,7 @@ export default function Home() {
               aria-label="Email"
               className="hover:text-blue-400 flex items-center"
             >
+              {/* Email SVG */}
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 13.065l-11.99-7.065v13c0 1.104.896 2 2 2h19.98c1.104 0 2-.896 2-2v-13l-11.99 7.065zm11.99-9.065c0-1.104-.896-2-2-2h-19.98c-1.104 0-2 .896-2 2v.217l12 7.083 11.98-7.083v-.217z"/></svg>
               <span className="ml-1 hidden sm:inline">ryan@barzion.net</span>
             </a>
@@ -31,15 +38,20 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="max-w-4xl mx-auto px-6 py-10 text-center">
+      <section className="max-w-4xl mx-auto px-6 py-15 text-center">
+        <Image
+          src="/myphoto.jpg"
+          alt="My Photo"
+          width={64}
+          height={64}
+          className="mx-auto rounded-full mb-6"
+        />
         <h1 className="text-5xl font-bold mb-4">Featured Projects</h1>
-        <p className="text-xl text-slate-300 mb-8"> 
-        </p>
-        {/* Removed 'View My Work' button */}
+        <p className="text-xl text-slate-300 mb-8"></p>
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="max-w-4xl mx-auto px-6 py-10">
+      <section id="projects" className="max-w-4xl mx-auto px-6 py-9">
         <h2 className="text-3xl font-bold mb-12">Project 1:</h2>
 
         {/* Project 1: Catalyst Research */}
@@ -94,13 +106,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section Removed */}
-
       {/* Footer */}
       <footer className="border-t border-slate-700 py-8 text-center text-slate-500">
-        <p>Built with Next.js and Vercel</p>
+        <p>© {new Date().getFullYear()} Ryan Bar-Zion</p>
       </footer>
     </div>
   );
 }
-
