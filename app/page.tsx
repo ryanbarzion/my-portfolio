@@ -9,8 +9,6 @@ export default function Home() {
           <h1 className="text-2xl font-bold">Ryan Bar-Zion Portfolio</h1>
           <div className="space-x-6">
             <a href="#projects" className="hover:text-blue-400">Projects</a>
-            <a href="#about" className="hover:text-blue-400">About</a>
-            <a href="#contact" className="hover:text-blue-400">Contact</a>
           </div>
         </div>
       </nav>
@@ -46,11 +44,9 @@ export default function Home() {
               GitHub →
             </a>
           </div>
-          
           <p className="text-slate-300 mb-4">
             An AI-powered system for discovering market catalysts and generating deep research reports. Uses LLM reasoning to identify forward-looking investment opportunities and map causal chains to direct beneficiaries.
           </p>
-
           <div className="mb-4">
             <p className="text-sm font-semibold text-slate-400 mb-2">Tech Stack</p>
             <div className="flex flex-wrap gap-2">
@@ -61,10 +57,21 @@ export default function Home() {
               <span className="bg-slate-600 px-3 py-1 rounded text-sm">SQLite</span>
             </div>
           </div>
-
-          <p className="text-slate-400 text-sm">
+          <p className="text-slate-400 text-sm mb-4">
             <strong>Features:</strong> Future catalyst predictions • Deep research reports • Ideas watchlist • Multi-source RSS analysis • Evidence-based scoring
           </p>
+          {/* Embedded Demo Placeholder */}
+          <div className="mt-6">
+            <iframe
+              src="https://catalyst-researcher-demo-url.com" // Replace with your deployed dashboard/demo URL
+              title="Catalyst Research Demo"
+              className="w-full h-96 rounded-lg border border-slate-600"
+              style={{ background: '#1e293b' }}
+              allow="clipboard-write"
+            >
+            </iframe>
+            <p className="text-slate-500 text-xs mt-2">Try the live demo above (if available).</p>
+          </div>
         </div>
 
         {/* Project 2: Template for Future Projects */}
@@ -77,21 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="max-w-4xl mx-auto px-6 py-20 border-t border-slate-700 text-center">
-        <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
-        <div className="space-y-4">
-          <p className="text-slate-300">
-            <a href="https://github.com/ryanbarzion" className="text-blue-400 hover:text-blue-300">
-              GitHub
-            </a>
-            {" "} • {" "}
-              <a href="mailto:ryan@barzion.net" className="text-blue-400 hover:text-blue-300">
-              Email
-            </a>
-          </p>
-        </div>
-      </section>
+      {/* Contact Section Removed */}
 
       {/* Footer */}
       <footer className="border-t border-slate-700 py-8 text-center text-slate-500">
