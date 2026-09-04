@@ -109,7 +109,7 @@ export const education = {
   school: "University of California, Berkeley",
   degree: "B.S. Aerospace Engineering",
   graduation: "Expected December 2028",
-  notes: ["Transfer GPA 3.93", "National Society of Leadership and Success"],
+  notes: ["GPA 3.93", "National Society of Leadership and Success"],
   coursework: [
     "Solid Mechanics",
     "Properties of Materials",
